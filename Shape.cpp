@@ -15,6 +15,10 @@ Shape::~Shape(){
 
 }
 
+void Shape::print(){
+	cout << "x,y: " << x << "," << y << endl;
+}
+
 void Shape::updateDimensions(){}
 
 void Shape::move(int x, int y){

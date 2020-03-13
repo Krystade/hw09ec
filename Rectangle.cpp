@@ -10,7 +10,7 @@
 
 #include "Rectangle.h"
 
-Rectangle::Rectangle(int l, int w) : Shape(0, 0){
+Rectangle::Rectangle(int x, int y, int l, int w) : Shape(x, y){
 	this->l = l;
 	this->w = w;
 }
@@ -33,7 +33,8 @@ void Rectangle::printArea(){
 	cout << calcArea();
 }
 void Rectangle::print(){
-	cout << "l: " << l << "\nw: " << w << endl;
+	Shape::print();
+	cout << "length: " << l << "\nwidth: " << w << endl;
 }
 void Rectangle::updateDimensions(int l, int w){
 	this->l = l;

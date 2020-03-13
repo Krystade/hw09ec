@@ -12,7 +12,7 @@
 
 class Circle : public Shape{
 public:
-	Circle (int r) : Shape(0, 0){this->r = r;}
+	Circle (int x, int y, int r) : Shape(x, y){this->r = r;}
 	void print();
 	void updateDimensions(int r);
 	//… override Print // static polymorphism

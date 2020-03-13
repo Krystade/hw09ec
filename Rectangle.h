@@ -12,7 +12,7 @@
 
 class Rectangle : public Shape{
 public:
-	Rectangle (int l, int w);
+	Rectangle (int x, int y, int l, int w);
 	Rectangle ();
 
 	double calcPerimeter();

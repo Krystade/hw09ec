@@ -15,12 +15,12 @@ using namespace std;
 
 void DrawShape(Circle c){
 	c.move(10, 11);
-	c.UpdateDimensions(81);
+	c.updateDimensions(81);
 }
 
 void DrawShape(Rectangle r){
 	r.move(10, 11);
-	r.UpdateDimensions(8, 5);
+	r.updateDimensions(8, 5);
 }
 
 #endif /* HW09EC_H_ */

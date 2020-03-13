@@ -8,7 +8,8 @@
 #include "Circle.h"
 
 void Circle::print(){
-	cout << "r: " << r << endl;
+	Shape::print();
+	cout << "radius: " << r << endl;
 }
 
 
